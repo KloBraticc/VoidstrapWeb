@@ -17,9 +17,6 @@
     <link rel="icon" type="image/png" href="https://i.imgur.com/DEbO2tM.png">
     <link rel="apple-touch-icon" href="https://i.imgur.com/DEbO2tM.png">
     <style>
-
-
-
         body {
             background: linear-gradient(90deg, #0f0f0f 0%, #1A0033 60%, #663399 100%);
             min-height: 100vh;
@@ -85,6 +82,15 @@
             position: relative;
             overflow: hidden;
         }
+
+        .feature-icon {
+            background: linear-gradient(135deg, #7a39fb 0%, #981bfe 100%);
+            transition: all 0.3s ease;
+        }
+
+            .feature-icon:hover {
+                transform: rotate(10deg) scale(1.1);
+            }
 
             /* Add subtle gradient overlay for richer color depth */
             .gradient-card::before {
@@ -737,7 +743,7 @@
             <!-- Credit 3 -->
             <div class="gradient-card p-6 rounded-xl glow-on-hover">
                 <h3 class="text-xl font-bold mb-2 text-purple-300">Contributors</h3>
-                <p class="mb-2 text-purple-100">stoof, Flemish, 5070, TnoobixRT</p>
+                <p class="mb-2 text-purple-100">Stoof, Flemish, 5070, TnoobixRT, Visibobl</p>
                 <div class="flex flex-wrap gap-2">
                     <a href="https://github.com/bloxstraplabs/bloxstrap" class="text-sm text-purple-400 hover:text-white">
                         Inspired by Bloxstrap
